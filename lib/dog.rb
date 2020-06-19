@@ -14,7 +14,7 @@ end
 
 def self.print_all
   @@all.each do |value|
-    puts value
+    puts value.name
   end
 end
 
